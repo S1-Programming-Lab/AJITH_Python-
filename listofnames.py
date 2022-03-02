@@ -1,9 +1,9 @@
-Astr=input("enter the string \n")
-char=input("enter the character \n")
-print("given string :\n",Astr)
-print("givewn character :\n",char)
+astr=input("Enter The string:\n")
+char=input("Enter the Charater\n")
+print("Given string:\n",astr)
+print("Given Charater:\n",char)
 res=0
-for i in range(len(Astr)):
-    if(Astr[i]==char):
+for i in range(len(astr)):
+    if(astr[i]==char):
         res=res+1
-        print(""number of time character is present in string:\n",res)
+print("Number of times charater is present in string:\n",res)
