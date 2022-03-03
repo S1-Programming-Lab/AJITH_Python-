@@ -15,7 +15,11 @@ n=input("enter the name:")
 t=input("enter the type")
 a=int(input("enter number"))
 am=int(input(input("enter the amount:"))
+<<<<<<< HEAD
        obj=bank(a,n,t,am)
+=======
+obj=bank(a,n,t,am)
+>>>>>>> ac8946f4d7899f1a6990f1cc780ecdcd318cc20a
 print("account details")
 obj.printamt()
 w=int(input("enter amount to withdraw"))
